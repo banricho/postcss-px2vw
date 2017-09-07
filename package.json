@@ -1,16 +1,17 @@
 {
-  "name": "postcss-px2rem",
-  "description": "Postcss version of px2rem",
+  "name": "postcss-px2vw",
+  "description": "Postcss version of px2vw",
   "version": "0.3.0",
-  "homepage": "https://github.com/songsiqi/px2rem-postcss",
+  "homepage": "https://github.com/songsiqi/px2vw-postcss",
   "author": "songsiqi <songsiqi2006@126.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:songsiqi/px2rem-postcss.git"
+    "url": "git@github.com:songsiqi/px2vw-postcss.git"
   },
   "dependencies": {
     "postcss": "^5.0.0",
-    "px2rem": "~0.5.0"
+    "css": "~2.2.0",
+    "extend": "~3.0.0"
   },
   "devDependencies": {
     "mocha": "^2.1.0",
@@ -21,7 +22,7 @@
   },
   "main": "index.js",
   "keywords": [
-    "px2rem",
+    "px2vw",
     "postcss-plugin"
   ],
   "license": "MIT"
